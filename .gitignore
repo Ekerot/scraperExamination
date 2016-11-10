@@ -1,0 +1,5 @@
+node_modules
+.vagrant
+/install-mongo.sh
+/install-node.sh
+/install-redis.sh
