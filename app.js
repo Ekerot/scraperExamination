@@ -1,12 +1,20 @@
 'use strict';
 
-let scraper = require('./lib/scraper');
-let test = require('./lib/checkFreeWeekendDay')
-
 /**
  * Created by ekerot on 2016-11-08.
  */
+let test = require('./lib/scraper');
 
-let initialLinks = scraper.initialScrape('http://vhost3.lnu.se:20080/weekend');
+let button = document.querySelector('.button');
+let url = document.querySelector('#url');
+
+button.addEventListener('click', function () {
+
+    test.initialScrape(url.value)
+    console.log(url.value);
+
+    })
+
+
 
 
