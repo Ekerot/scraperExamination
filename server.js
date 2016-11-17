@@ -8,7 +8,7 @@ let app = express();
 app.use(express.static(__dirname));
 
 app.get('/', function(req, res){
-    res.sendfile('Got a GET request!');
+    res.sendfile(__dirname + '/index.html');
 });
 
 app.post('/', function (req, res) {
