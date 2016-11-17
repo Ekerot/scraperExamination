@@ -10,7 +10,7 @@ let url = document.querySelector('#url');
 
 button.addEventListener('click', function () {
 
-    test.initialScrape(url.value)
+    test.fetchLinks(url.value)
     console.log(url.value);
 
     })

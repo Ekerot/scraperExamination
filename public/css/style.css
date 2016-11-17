@@ -10,6 +10,7 @@ input {
     margin-bottom: 10px;
     border-radius:28px;
     border:1px solid #111111;
+    outline:none;
 }
 
 .button {
@@ -28,7 +29,7 @@ input {
     margin-left: 45%;
     top: 30%;
     margin-top: 10px;
-
+    outline:none;
 }
 .button:hover {
     background-color: #f05f40;
@@ -40,7 +41,7 @@ input {
 
 img{
     float: left;
-    margin-left: 38%;
+    margin-left: 36%;
     height: 300px;
 
 }
