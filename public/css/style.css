@@ -30,6 +30,8 @@ input {
     top: 30%;
     margin-top: 10px;
     outline:none;
+    width: 100px;
+    height: 40px;
 }
 .button:hover {
     background-color: #f05f40;
