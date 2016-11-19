@@ -1,6 +1,6 @@
 input {
     float: left;
-    margin-left: 31%;
+    margin-left: 35%;
     margin-top: 20%;
     width: 500px;
     height: 30px;
@@ -22,11 +22,10 @@ input {
     color:#ffffff;
     font-family:Arial;
     font-size:15px;
-    padding:16px 31px;
+    padding:10px 21px;
     text-decoration:none;
     text-shadow:0px 1px 0px #0d1d0b;
-    font-size: 15px;
-    margin-left: 45%;
+    margin-left: 47%;
     top: 30%;
     margin-top: 10px;
     outline:none;
@@ -43,7 +42,17 @@ input {
 
 img{
     float: left;
-    margin-left: 36%;
+    margin-left: 40%;
     height: 300px;
+}
 
+ul{
+    position: absolute;
+    color: #979493;
+    top: 35%;
+    margin-top: 30px;
+    font-size:20px;
+    padding:30px 31px;
+    margin-left: 13%;
+    text-align: center;
 }

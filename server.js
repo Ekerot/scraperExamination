@@ -11,7 +11,7 @@ app.use(express.static('public'));
 
 app.get('/', function (req, res) {
     res.render('index')
-})
+});
 
 app.get('/process_get', function (req, res) {
 
@@ -20,10 +20,17 @@ app.get('/process_get', function (req, res) {
     };
 
     if(response) {
-        console.log(startScraping(response));
-    }
 
+        startScraping(response).then(function (result) {
+            res.render('index', {result})
+        }).catch(function (error) {
+            console.log(error);
+        })
+
+    }
 });
+
+
 
 app.listen(4000, function () {
     console.log('There is magic going on on port 4000!')
