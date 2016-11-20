@@ -20,19 +20,12 @@ app.get('/process_get', function (req, res) {
     response = {
         url:req.query.url
     };
-
-    if(response) {
-
         startScraping(response).then(function (result) {
             res.render('index', {result})
         }).catch(function (error) {
-            console.log(error);
+            res.render('index', {error});
         })
-
-    }
 });
-
-
 
 app.listen(4000, function () {
     console.log('There is magic going on on port 4000!')

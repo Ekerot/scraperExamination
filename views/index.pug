@@ -8,6 +8,10 @@ html
     body
         img(src='images/big-night-out.jpg', alt='Big night out image')
 
+        - var err = error;
+            if err
+                p= err
+
 
         - var values = result;
         ul
@@ -15,7 +19,6 @@ html
                 each value in values
                     ol= value.movie
                     br
-
 
         form(method='GET' action='/process_get')
             input(type = 'text', name = 'url', placeholder = 'Enter your url!')

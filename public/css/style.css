@@ -56,3 +56,14 @@ ul{
     margin-left: 13%;
     text-align: center;
 }
+
+p{
+    position: absolute;
+    color: #970006;
+    top: 35%;
+    margin-top: 30px;
+    font-size:35px;
+    padding:30px 31px;
+    margin-left: 13%;
+    text-align: center;
+}
