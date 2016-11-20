@@ -5,9 +5,11 @@
 let express = require('express');
 let startScraping = require('./lib/scraper');
 let app = express();
+let favicon = require('serve-favicon');
 
 app.set('view engine', 'pug');
 app.use(express.static('public'));
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 app.get('/', function (req, res) {
     res.render('index')
