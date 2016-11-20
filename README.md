@@ -21,7 +21,7 @@ If you get an ERROR message looking like this:
 
 "Error: Cannot find module 'express'"
 
-please use the command above.
+please use the following command.
 
 ```
 $ npm install express -g
