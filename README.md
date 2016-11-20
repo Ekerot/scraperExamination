@@ -15,7 +15,16 @@ $ install npm
 ```
 
 ```
-$ install npm install nodemon -g
+$ npm install nodemon -g
+```
+If you get an ERROR message looking like this:
+
+"Error: Cannot find module 'express'"
+
+please use the command above.
+
+```
+$ npm install express -g
 ```
 
 ## Running the application
