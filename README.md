@@ -11,7 +11,11 @@ These instructions will get you a copy of the project up and running on your loc
 Before running the application run the following commands:
 
 ```
-$ install npm
+$ vagrant up
+```
+
+```
+$ vagrant ssh
 ```
 
 ```
