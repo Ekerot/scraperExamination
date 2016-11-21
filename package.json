@@ -2,7 +2,7 @@
   "name": "assignment-1",
   "version": "1.0.0",
   "description": "assignment in course 1DV523 at Linneausuniversity",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "cheerio": "^0.22.0",
     "co": "^4.6.0",
