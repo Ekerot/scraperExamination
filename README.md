@@ -37,7 +37,7 @@ $ npm install express -g
 $ nodemon server.js 4000
 ```
 
-To run the application properlly urs this url:s
+To run the application properlly use this url:s
 
 ```
 http://vhost3.lnu.se:20080/weekend
